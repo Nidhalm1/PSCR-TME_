@@ -1,5 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
 
+# Set the C++ compiler path if not found automatically.
+# Update the path below to the correct location of your g++ compiler.
+set(CMAKE_CXX_COMPILER "/usr/bin/g++")
+
 # Project name and language.
 project(TME4 LANGUAGES CXX)
 
@@ -20,6 +24,8 @@ set(CMAKE_CXX_FLAGS_DEBUG "-g -Wall -Wextra -pedantic -O0")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3 -Wall -DNDEBUG -flto")
 
 # Find Qt6
+# Update this path to your actual Qt6 installation directory containing Qt6Config.cmake
+set(CMAKE_PREFIX_PATH "/opt/Qt/6.5.0/gcc_64/lib/cmake")
 find_package(Qt6 REQUIRED COMPONENTS Core Gui)
 
 # Add the executable (only main.cpp exists for now).

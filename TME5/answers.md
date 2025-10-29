@@ -21,19 +21,19 @@ Temps/baseline choisi :
 Implemented `void renderThreadPerPixel(const Scene& scene, Image& img)` in Renderer.
 
 mesures
-
+2813ms.
 
 ### Question 4
 Implemented `void renderThreadPerRow(const Scene& scene, Image& img)` in Renderer.
 
 mesures
-
+209ms.
 
 ### Question 5
 Implemented `void renderThreadManual(const Scene& scene, Image& img, int nbthread)` in Renderer.
 
 mesures
-
+200ms.
 
 ## With Thread Pool
 

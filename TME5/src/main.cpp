@@ -71,7 +71,20 @@ int main(int argc, char *argv[]) {
        } else if (opts.mode == "PoolFunctionalRow") {
            renderer.renderPoolFunctionalRow(scene, img, opts.nbthread);
                    */
-  } else {
+  } 
+  else if (opts.mode =="ThreadPerPixel")
+  {
+    renderer.renderThreadPerPixel(scene,img);
+  }
+  else if (opts.mode =="ThreadManual")
+  {
+    renderer.renderThreadManual(scene,img, opts.nbthread);
+  }
+  else if (opts.mode =="renderThreadPerRow")
+  {
+    renderer.renderThreadPerRow(scene,img);
+  }
+  else {
     std::cerr << "Unknown mode: " << opts.mode << std::endl;
     return 1;
   }
@@ -106,8 +119,8 @@ int parseOptions(int argc, char *argv[], Options &opts) {
       ->default_val(default_opts.num_spheres);
 
   cli_app.add_option("-m,--mode", opts.mode, "Processing mode")
-      ->check(CLI::IsMember({"sequential", "ThreadPerPixel", "ThreadPerRow", "ThreadManual",
-                             "PoolPixel", "PoolRow", "PoolFunctionalRow"}))
+      ->check(CLI::IsMember({"sequential", "ThreadPerPixel", "ThreadPerRow","renderThreadPerRow", "ThreadManual",
+                             "PoolPixel", "PoolRow","ThreadPerPixel", "PoolFunctionalRow"}))
       ->default_str(default_opts.mode);
 
   cli_app.add_option("-n,--nbthread", opts.nbthread, "Number of threads")

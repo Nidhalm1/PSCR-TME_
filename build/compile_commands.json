@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/nmoussa/fac/PSCR-TME_/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -I/home/nmoussa/fac/PSCR-TME_/TME4/src -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -Wall -Wextra -pedantic -O0 -std=c++20 -fPIC -o CMakeFiles/TME4.dir/src/main.cpp.o -c /home/nmoussa/fac/PSCR-TME_/TME4/src/main.cpp",
+  "file": "/home/nmoussa/fac/PSCR-TME_/TME4/src/main.cpp",
+  "output": "CMakeFiles/TME4.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/nmoussa/fac/PSCR-TME_/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -I/home/nmoussa/fac/PSCR-TME_/TME4/src -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -Wall -Wextra -pedantic -O0 -std=c++20 -fPIC -o CMakeFiles/TME4.dir/src/Tasks.cpp.o -c /home/nmoussa/fac/PSCR-TME_/TME4/src/Tasks.cpp",
+  "file": "/home/nmoussa/fac/PSCR-TME_/TME4/src/Tasks.cpp",
+  "output": "CMakeFiles/TME4.dir/src/Tasks.cpp.o"
+},
+{
+  "directory": "/home/nmoussa/fac/PSCR-TME_/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -I/home/nmoussa/fac/PSCR-TME_/TME4/src -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -Wall -Wextra -pedantic -O0 -std=c++20 -fPIC -o CMakeFiles/TME4.dir/src/util/ImageUtils.cpp.o -c /home/nmoussa/fac/PSCR-TME_/TME4/src/util/ImageUtils.cpp",
+  "file": "/home/nmoussa/fac/PSCR-TME_/TME4/src/util/ImageUtils.cpp",
+  "output": "CMakeFiles/TME4.dir/src/util/ImageUtils.cpp.o"
+},
+{
+  "directory": "/home/nmoussa/fac/PSCR-TME_/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -I/home/nmoussa/fac/PSCR-TME_/TME4/src -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -Wall -Wextra -pedantic -O0 -std=c++20 -fPIC -o CMakeFiles/TME4.dir/src/util/processRSS.cpp.o -c /home/nmoussa/fac/PSCR-TME_/TME4/src/util/processRSS.cpp",
+  "file": "/home/nmoussa/fac/PSCR-TME_/TME4/src/util/processRSS.cpp",
+  "output": "CMakeFiles/TME4.dir/src/util/processRSS.cpp.o"
+},
+{
+  "directory": "/home/nmoussa/fac/PSCR-TME_/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -I/home/nmoussa/fac/PSCR-TME_/TME4/src -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -Wall -Wextra -pedantic -O0 -std=c++20 -fPIC -o CMakeFiles/TME4.dir/src/util/thread_timer.cpp.o -c /home/nmoussa/fac/PSCR-TME_/TME4/src/util/thread_timer.cpp",
+  "file": "/home/nmoussa/fac/PSCR-TME_/TME4/src/util/thread_timer.cpp",
+  "output": "CMakeFiles/TME4.dir/src/util/thread_timer.cpp.o"
+}
+]
